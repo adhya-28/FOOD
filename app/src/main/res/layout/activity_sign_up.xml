@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Sign In"
+            android:textSize="45dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="To continue please create an account"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/border"
+            android:hint="Name"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:paddingLeft="10dp"
+            android:inputType="text" >
+
+        </EditText>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/border"
+            android:hint="Mobile"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:inputType="text" >
+
+        </EditText>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/border"
+            android:hint="Email"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:paddingLeft="10dp"
+            android:inputType="text" >
+
+        </EditText>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/border"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:inputType="text" >
+
+        </EditText>
+
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Sign up"
+            android:backgroundTint="#0678F4"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</ScrollView>
